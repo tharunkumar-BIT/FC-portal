@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: rgba(241, 245, 249, 1);
+}
+
+.login-form {
+  position: relative;
+  width: 350px;
+  height: auto;
+  background: rgba(255, 255, 255, 1);
+  padding: 40px 35px 25px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 80, 255, 0.2);
+  box-shadow: 0 0 5px rgba(0, 102, 255, 0.2), 0 0 10px rgba(0, 100, 255, 0.1),
+    0 0 15px rgba(0, 100, 255, 0.05), 0 2px 0 rgba(0, 34, 77, 0.5);
+}
+.text {
+  font-size: 1.3rem;
+  color: grey;
+}
+img {
+  width: 260px;
+  height: 260px;
+  margin-bottom: -40px;
+}
+.portal_name {
+  font-size: 1.1rem;
+  color: grey;
+  margin-top: 30px;
+}
+hr {
+  height: 1.2px;
+  margin: 10px 100px -10px;
+  background-color: rgb(202, 202, 202);
+  border: none;
+}
+button {
+  height: 30px;
+  width: 90%;
+  font-size: 12px;
+  color: #ffffff;
+  padding: 0 15px;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid #3f85dc;
+  background-color: #3f85dc;
+  margin-top: 40px;
+  border-radius: 5px !important;
+  font-weight: 500;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #5c9eee;
+  border-color: #5c9eee;
+}
+.onlybitac {
+  font-size: 0.7rem;
+  color: grey;
+  margin-top: 15px;
+}
+.error-msg {
+  color: rgba(15, 23, 42, 1);
+  margin-top: 10px;
+  text-align: center;
+  font-size: small;
+}
+
+@media (max-width: 425px) {
+  .login-form {
+    padding: 20px; /* Adjust padding for smaller screens */
+  }
+
+  .text {
+    font-size: 24px; /* Reduce font size for smaller screens */
+  }
+
+  form .field .fas {
+    width: 50px; /* Adjust icon size for smaller screens */
+    font-size: 18px; /* Adjust icon size for smaller screens */
+  }
+
+  field input,
+  form button {
+    font-size: 16px; /* Reduce input and button font size for smaller screens */
+  }
+
+  button {
+    margin-top: 20px; /* Adjust margin for smaller screens */
+  }
+
+  .link {
+    margin-top: 15px; /* Adjust margin for smaller screens */
+  }
+}
