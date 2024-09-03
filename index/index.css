@@ -79,28 +79,28 @@ button:hover {
 
 @media (max-width: 425px) {
   .login-form {
-    padding: 20px; /* Adjust padding for smaller screens */
+    padding: 20px;
   }
 
   .text {
-    font-size: 24px; /* Reduce font size for smaller screens */
+    font-size: 24px; 
   }
 
   form .field .fas {
-    width: 50px; /* Adjust icon size for smaller screens */
-    font-size: 18px; /* Adjust icon size for smaller screens */
+    width: 50px; 
+    font-size: 18px; 
   }
 
   field input,
   form button {
-    font-size: 16px; /* Reduce input and button font size for smaller screens */
+    font-size: 16px;
   }
 
   button {
-    margin-top: 20px; /* Adjust margin for smaller screens */
+    margin-top: 20px;
   }
 
   .link {
-    margin-top: 15px; /* Adjust margin for smaller screens */
+    margin-top: 15px;
   }
 }

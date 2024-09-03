@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensures the body takes up the full height of the viewport */
+  margin: 0;
+  background: rgba(241, 245, 249, 1);
+  overflow: hidden; /* Prevents vertical overflow */
+}
+
+.container {
+  max-height: 100%; /* Ensure the container never exceeds the viewport height */
+  width: 70%;
+  background-color: white;
+  margin: auto; /* Center horizontally */
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 100, 255, 0.15), 0 0 10px rgba(0, 100, 255, 0.1),
+              0 0 15px rgba(0, 100, 255, 0.05), 0 0 20px rgba(0, 100, 255, 0);
+  overflow-y: auto; /* Allows scrolling if content is too tall */
+  display: flex;
+  justify-content: center; /* Center content inside the container */
+  align-items: left;
+  flex-direction: column; /* Ensure content aligns vertically */
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%; /* More responsive width */
+    padding: 15px; /* Reduce padding for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 95%; /* Even more flexible for very small screens */
+    padding: 10px; /* Further reduce padding */
+  }
+}

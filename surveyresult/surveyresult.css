@@ -1,0 +1,35 @@
+.boxheading1 {
+  margin: 90px 40px 10px 40px; /* Add horizontal margins (left and right) */
+  width: 70%;
+  padding: 5px;
+}
+
+.boxheading2 {
+  margin: 10px 40px; /* Add horizontal margins (left and right) */
+  width: 70%;
+  padding: 5px;
+}
+
+
+h2 {
+  color: #6c7a89;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 100;
+  text-align: left !important;
+  margin-left: 0;
+}
+
+.nocont {
+  height: fit-content;
+  block-size: fit-content;
+  width: 70%;
+  background-color: white;
+  margin: 5px 40px;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 100, 255, 0.15), 0 0 10px rgba(0, 100, 255, 0.1),
+    0 0 15px rgba(0, 100, 255, 0.05), 0 0 20px rgba(0, 100, 255, 0);
+  overflow-y: auto;
+}
